@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <title>Word Frequency</title>
   </head>
   <body>
-    {%if count is not empty%}
-    <p>The frequency of this word is:</p>
-    <h4>{{count}} times</h4>
-    {%endif%}
-    <p>Return to <a href="/"> home page</a></p>
-
+    <div class="container">
+      {%if count is not empty%}
+      <p>The frequency of this word is:</p>
+      <h4>{{count}} times</h4>
+      {%endif%}
+      <p>Return to <a href="/"> home page</a></p>
+    </div>
   </body>
 </html>

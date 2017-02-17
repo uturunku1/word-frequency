@@ -1,11 +1,8 @@
 <?php
-/**
- *
- */
-class Words
+class RepeatCounter
 {
 
-  function CountRepeats($input1, $input2)
+  static function CountRepeats($input1, $input2)
   {
     $words_in_input = explode(" ",$input2);
     $matches= array();

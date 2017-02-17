@@ -47,9 +47,9 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 | Word         | String                     | Frequency                           |
 |--------------|----------------------------|-------------------------------------|
 |              |                            |                                     |
-|              |                            |                                     |
 | hi           | hi                         |  1                                  |
-| cats         | cats are silly, I like cats|  2                                  |
+| hi           | hi hi                      |  2                                  |
+| hi           | hi hello hi                |  2                                  |
 |              |                            |                                     |
 
 * Phase 4 - Initial Silex framework on home page.

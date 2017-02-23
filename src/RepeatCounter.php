@@ -12,9 +12,13 @@
             array_push($matches,$word);
           }
         }
+        if (empty($matches)) {
+          return "That word is not being used.";
+        }else {
+          return count($matches);
+        }
 
-        return count($matches);
+
       }
-
     }
 ?>

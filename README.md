@@ -44,13 +44,14 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 * Phase 3 - Build Test cases and implement function.
 * Behavior given word and a string, return how many times a word was used in this string.
 
-| Word         | String                     | Frequency                           |
+| Word         | String                     | Output                           |
 |--------------|----------------------------|-------------------------------------|
-|              |                            |                                     |
-| hi           | hi                         |  1                                  |
+| hi           | hello                      |  That word is not being used.|
+| hi           | hi                         |  1                                 |
+| HI           | hi                         |  1                                  |
 | hi           | hi hi                      |  2                                  |
 | hi           | hi hello hi                |  2                                  |
-|              |                            |                                     |
+| hi| hi, hello there |1|
 
 * Phase 4 - Initial Silex framework on home page.
 * Phase 5 - Create twig template with a form that takes these inputs.

@@ -24,6 +24,16 @@
 
         $this->assertEquals(1, $result);
       }
+      function test_caseSensitive()
+      {
+        $RepeatCounter = new RepeatCounter();
+        $input1 = "hI";
+        $input2 = "hi";
+
+        $result= $RepeatCounter->CountRepeats($input1,$input2);
+
+        $this->assertEquals(1, $result);
+      }
       function test_countRepeats()
       {
         $RepeatCounter = new RepeatCounter();
@@ -39,6 +49,16 @@
         $RepeatCounter = new RepeatCounter();
         $input1 = "hi";
         $input2 = "hi hello hi";
+
+        $result= $RepeatCounter->CountRepeats($input1,$input2);
+
+        $this->assertEquals(2, $result);
+      }
+      function test_caseSensitives()
+      {
+        $RepeatCounter = new RepeatCounter();
+        $input1 = "hI";
+        $input2 = "hi hello HI";
 
         $result= $RepeatCounter->CountRepeats($input1,$input2);
 

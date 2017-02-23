@@ -48,7 +48,7 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 |--------------|----------------------------|-------------------------------------|
 | hi           | hello                      |  That word is not being used.|
 | hi           | hi                         |  1                                 |
-| HI           | hi                         |  1                                  |
+| hI           | hi                         |  1                                  |
 | hi           | hi hi                      |  2                                  |
 | hi           | hi hello hi                |  2                                  |
 | hi| hi, hello there |1|

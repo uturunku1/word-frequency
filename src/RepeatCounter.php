@@ -8,7 +8,7 @@
         $matches= array();
 
         foreach ($words_in_input as $word) {
-          if ($input1==$word) {
+          if (strcasecmp($input1,$word)==0) {
             array_push($matches,$word);
           }
         }

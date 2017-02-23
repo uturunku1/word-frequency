@@ -48,9 +48,9 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 |--------------|----------------------------|-------------------------------------|
 | hi           | hello                      |  That word is not being used.|
 | hi           | hi                         |  1                                 |
-| hI           | hi                         |  1                                  |
 | hi           | hi hi                      |  2                                  |
 | hi           | hi hello hi                |  2                                  |
+| hI           | hi hello HI                |  2                                  |
 | hi| hi, hello there |1|
 
 * Phase 4 - Initial Silex framework on home page.
